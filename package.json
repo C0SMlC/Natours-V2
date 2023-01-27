@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass -w sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C0SMlC/Natours.git"
+  },
+  "author": "Pratik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C0SMlC/Natours/issues"
+  },
+  "homepage": "https://github.com/C0SMlC/Natours#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

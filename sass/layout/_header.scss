@@ -1,0 +1,39 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(#7ed56fba, #28b485b6),
+    url("../img/hero.jpg");
+  background-size: cover;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &__main-logo {
+    height: 3.2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  &__main-logo:hover {
+    transform: scale(1.2);
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+  }
+}
+
+.header__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header__text-box h1 {
+  color: $lightest_grey;
+  line-height: 1.8;
+  backface-visibility: hidden;
+  margin-bottom: 9.2rem;
+}
