@@ -1,13 +1,19 @@
-@import "abstracts/_variables";
-@import "abstracts/_mixins";
-@import "abstracts/_functions";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
 
-@import "base/_base";
-@import "base/_animations";
-@import "base/_typography";
-@import "base/_utilities";
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
 
-@import "components/_button.scss";
-@import "layout/_header";
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
 
-@import "pages/_home.scss";
+@import "layout/header";
+@import "layout/grid-2-cols";
+@import "layout/grid-4-cols";
+@import "layout/features";
+
+@import "pages/home";

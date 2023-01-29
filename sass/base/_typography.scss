@@ -27,10 +27,18 @@
   font-weight: 700;
   letter-spacing: 0.2rem;
   color: transparent;
-  transition: all .5s;
+  transition: all 0.5s;
 
   &:hover {
     transform: skewX(15deg) skewY(2deg);
     text-shadow: 1px 53px 48px rgba(0, 0, 0, 0.459);
   }
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  color: $light_black;
+  text-transform: uppercase;
+  line-height: 1.7;
+  font-weight: 400;
 }
